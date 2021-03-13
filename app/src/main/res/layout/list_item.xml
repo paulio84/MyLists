@@ -35,7 +35,7 @@
         tools:text="Item Description" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/listItemLinkButton"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
