@@ -12,4 +12,13 @@
         android:scrollbars="vertical"
         app:layoutManager="LinearLayoutManager" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addItemFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_add_item"
+        android:contentDescription="@string/add_item"
+        android:layout_margin="16dp"  />
+
 </FrameLayout>
