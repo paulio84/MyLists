@@ -1,4 +1,4 @@
-package com.paulterry.apps.mylists
+package com.paulterry.apps.mylists.ui
 
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -14,9 +14,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
-        val viewModel: MyListsViewModel by viewModels()
-        binding.listItemsRecyclerView.adapter = MyListsAdapter(viewModel.items)
-
         setContentView(binding.root)
     }
 }
