@@ -28,7 +28,8 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.listItemRecyclerView.adapter = MyListsAdapter(sharedViewModel.items)
+        binding.lifecycleOwner = viewLifecycleOwner
+        binding.listItemRecyclerView.adapter = sharedViewModel.items.value?.let { MyListsAdapter(it) }
     }
 
     override fun onDestroyView() {

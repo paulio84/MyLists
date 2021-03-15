@@ -4,7 +4,7 @@ import com.paulterry.apps.mylists.models.ListItem
 
 class DataSource {
     fun getListItems(): List<ListItem> {
-        return listOf<ListItem>(
+        return listOf(
             ListItem("Shopping", "Do the shopping."),
             ListItem("Clean the house"),
             ListItem("Play games", "Video games or board games?")

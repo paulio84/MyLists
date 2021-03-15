@@ -14,5 +14,9 @@
     <fragment
         android:id="@+id/itemFragment"
         android:name="com.paulterry.apps.mylists.ui.fragments.ItemFragment"
-        android:label="ItemFragment" />
+        android:label="ItemFragment" >
+        <action
+            android:id="@+id/action_itemFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
 </navigation>

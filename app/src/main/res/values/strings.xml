@@ -4,4 +4,5 @@
     <string name="text">Text</string>
     <string name="description">Description</string>
     <string name="link">Link</string>
+    <string name="save">Save</string>
 </resources>

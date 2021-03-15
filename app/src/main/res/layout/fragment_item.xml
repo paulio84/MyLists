@@ -7,10 +7,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/itemTextContainer"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/text"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:hint="@string/text">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/itemTextEditText"
@@ -21,10 +21,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/itemDescriptionContainer"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/description"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:hint="@string/description">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/itemDescriptionEditText"
@@ -35,10 +35,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/itemLinkContainer"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/link"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:hint="@string/link">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/itemLinkEditText"
@@ -46,5 +46,11 @@
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
 
 </LinearLayout>
